@@ -15,6 +15,6 @@ This is to demonstrate that on Windows, the SYSTEMROOT variable needs to be set 
 
 `./envless-listen -failing`
 
-Output:
+Output (on Windows 10):
 
 `listen tcp 127.0.0.1:12345: socket: The requested service provider could not be loaded or initialized.`
